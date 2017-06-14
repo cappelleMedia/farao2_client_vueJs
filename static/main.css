@@ -1,0 +1,49 @@
+/*--- HTML, BODY AND APP ---*/
+html, body, #app {
+  background-color: #000 !important;
+  color: #F8F2DA;
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+colors
+red: 7D120F
+brown: CF955E
+beige light: F8F2DA
+beige: F2C176
+*/
+
+
+/*--- effects ---*/
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+}
+
+.fade-enter-active {
+  transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+/*--- General classes ---*/
+.center-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content-block h2.content-header {
+  font-size: 40px;
+}
+
+.content-block .content-body {
+}
