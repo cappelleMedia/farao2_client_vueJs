@@ -5,6 +5,10 @@ html, body, #app {
   font-family: 'Lato', sans-serif;
 }
 
+#app {
+  width: 1200px;
+  margin: 0 auto;
+}
 /*
 colors
 red: 7D120F

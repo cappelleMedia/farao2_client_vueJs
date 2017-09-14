@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="col-xs-8 col-xs-offset-2">
+  <div id="app">
     <navigation v-if="showMenu"></navigation>
     <div id="view">
       <transition name="fade">

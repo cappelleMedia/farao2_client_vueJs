@@ -1,7 +1,7 @@
 <template>
   <div id="home" class="container-fluid">
     <div class="row">
-      <div class="content-block col-sm-4 col-sm-offset-1" id="origins">
+      <div class="content-block col-sm-5 col-sm-offset-1" id="origins">
         <div class="content-header">
           <h2>Origins..</h2>
         </div>
@@ -10,7 +10,7 @@
         </div>
       </div>
 
-      <div class="content-block col-sm-4 col-sm-offset-2 home-block" id="offer">
+      <div class="content-block col-sm-5 " id="offer">
         <div class="content-header">
           <h2>Café Farao</h2>
         </div>
